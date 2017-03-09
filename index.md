@@ -1,140 +1,67 @@
-<!---
 
-Images can be added in-line as a reStructured text substitution, but will not render in markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+|CyVerse logo|_
 
-|CyVerse logo|
+#Creating a CyVerse account
 
---->
-
-#Quick Start name
-<!---
-Use short, imperative titles e.g. Upload and share data, uploading and sharing data
---->
 
 ## Goal
 
-<!---
-Avoid covering upstream and downstream steps that are not explicitly and necessarily part of the tutorial - write or link to separate quick starts/tutorials for those parts
---->
+Create a new CyVerse account and sign up for CyVerse services. 
 
-<!---
-A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial
---->
+### Prerequisites 
 
-## Prerequisites 
+1. **Valid email address**
 
-
-### Downloads, access, and services
-
-*In order to complete this tutorial you will need access to the following services/software*
-
-```eval_rst
-.. list-table::
-    :header-rows: 1
-
-    * - Prerequisite
-      - Preparation/Notes
-      - Link/Download
-    * - CyVerse account
-      - You will need a CyVerse account to complete this exercise
-      - `Register <https://user.cyverse.org/>`_
-    * - Atmosphere access
-      - You must have access to Atmosphere
-      - `Request Access <http://www.cyverse.org/learning-center/manage-account#AddAppsServices>`_
-    * - Cyberduck
-      - Standalone software for upload/download to Data Store
-      - `Download <https://cyberduck.io/>`_
-```
-
-### Platform(s)
-
-*We will use the following CyVerse platform(s):*
-
-|Platform|Interface|Link|Platform Documentation|Quick Start|
-|--------|---------|----|----------------------|-----------|
-|Discovery Environment|Web/Point-and-click|[Discovery Environment](https://de.iplantcollaborative.org)|[Manual](https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents)|[Quick Start]()
-|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphere](https://atmo.cyverse.org)|[Manual](https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|[Quick Start]()|
-|BisQue|Web/Point-and-click and/or Command-line (API)|[BisQue](http://bisque.iplantcollaborative.org/client_service)|[Manual](https://wiki.cyverse.org/wiki/display/BIS)|[Quick Start]()|
-|DNA Subway|Web/Point-and-click|[DNA Subway](http://dnasubway.iplantcollaborative.org/)|[Manual](http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf)|[Quick Start]()|
-|Agave API|Command-line (API)|[Agave API](https://agaveapi.co)|[Live Docs](https://agaveapi.co)|[Quick Start]()|
-
-### Input and example data
-
-*In order to complete this tutorial you will need to have the following inputs prepared*
-
-|Input File(s)|Format|Preparation/Notes|Example Data|
-|-------------|------|-----------------|------------|
-||||
-
+    You will need a valid email address. It is **highly recommended** that you use an institutional email address (e.g. .edu, .org, or .gov); access to some platforms may be restricted for non-institutional users)
 
 ---
 
-## Get started
+### Get started
 
 <!---
 Steps and text go here
 --->
 
+1. Go to the CyVerse user portal: [https://user.cyverse.org/](https://user.cyverse.org/)
+2. Under 'New User?' click 'Register'
+3. Complete the registration process
+    .. Hint::
+	    Choose a short, easy-to-remember username.   Username must be lowercase and have at least 3 characters. First character must be a lowercase letter. May only contain lowercase letters, numbers, dashes and underscores
+4. Check your email for an account confirmation link and follow the confirmation instructions. 
 
-<!---
-.. Hint::
-	You can insert reStructured text directives in the Markdown. The formatting will have to be fixed later in the .rst document see [rst docs](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions)
---->
 
 ### Summary
-
-<!---
-Summary a--->
+Once you have confirmed your email address, you can start using your CyVerse account right away! 
 
 **Next Steps:**
 
+*Register for additional services:*
 
-## More help and additional information
+The services listed below require you to request access. Don't worry if you are undecided—you can request access now, or at any time.
 
-<!---
-Short description and links to any reading materials
---->
+- [Atmosphere](http://www.cyverse.org/atmosphere) - The CyVerse cloud platform where you can create custom Linux-based virtual machines or use existing ones (your account must be linked to an .edu email address to register).
+- [Bisque](http://www.cyverse.org/bisque) - A platform for managing images and their metadata that allows you to analyze image data in more than 100 file formats.
+- [CoGe](https://genomevolution.org/coge/) - The Comparative Genomics platform gives you access to thousands of genomes and a variety of tools for genome analysis.
+- [DNA Subway](http://www.cyverse.org/dna-subway)- DNA Subway makes high-level genome analysis broadly available to students and educators, and provides easy access to the types of data and informatics tools that drive modern biology. Using the intuitive metaphor of a subway map, DNA Subway organizes research-grade bioinformatics analysis tools into logical workflows and presents them in an appealing interface.
+- TARGeT - An advanced pipeline for the detection of transposable elements.
+
+**To register:**
+Login to [https://user.cyverse.org/dashboard/](https://user.cyverse.org/dashboard/) and request access. 
+
+### More help and additional information
 
 - **Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [CyVerse Wiki](https://wiki.cyverse.org)
 - **Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions)
 
-### Fix or improve this tutorial 
+#### Fix or improve this tutorial 
 
 - **Fix this tutorial on GitHub:** [GitHub](FIX_THIS_IN_YOUR_DOCUMENTATION)
 - **Send a note:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
-
-<!---
-
-SAMPLE DIRECTIVES (DELETE UNUSED ONES)
---------------------------------------
-
-See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
-
-.. Danger::
-	This step is dangerous
-
-.. Important::
-	This step is important
-	
-.. Caution::
-	Exercise caution
-	
-.. Hint::
-	This is a hint
-
-.. Important::
-	This is very important
-
-.. note:: This is a note admonition.
-   This is the second line of the first paragraph.
-
-   - The note contains all indented body elements
-     following.
-   - It includes this bullet list.
 
 
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
---->
+    
+.. _CyVerse logo: https://cyverse-learning-materials-home.readthedocs-hosted.com/en/latest/
